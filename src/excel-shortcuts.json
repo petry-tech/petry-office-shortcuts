@@ -11,16 +11,22 @@
             "name": "Hide task pane for add-in"
         },
         {
-            "id": "ERROR",
+            "id": "SETCOLOR",
             "type": "ExecuteFunction",
-            "name": "Showing error due to duplicate shortcut key"
+            "name": "Cycle through cell colors"
+        },
+        {
+            "id": "TESTCONFLICT",
+            "type": "ExecuteFunction",
+            "name": "Test the conflict modal"
         }
+
     ],
     "shortcuts": [
         {
             "action": "SHOWTASKPANE",
             "key": {
-                "default": "Ctrl+Atl+1"
+                "default": "Ctrl+Alt+1"
             }
         },
         {
@@ -30,7 +36,13 @@
             }
         },
         {
-            "action": "ERROR",
+            "action": "SETCOLOR",
+            "key": {
+                "default": "Ctrl+Alt+3"
+            }
+        },
+        {
+            "action": "TESTCONFLICT",
             "key": {
                 "default": "Ctrl+R"
             }
