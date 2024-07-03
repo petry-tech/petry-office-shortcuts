@@ -1,0 +1,39 @@
+{
+    "actions": [
+        {
+            "id": "SHOWTASKPANE",
+            "type": "ExecuteFunction",
+            "name": "Show task pane for add-in"
+        },
+        {
+            "id": "HIDETASKPANE",
+            "type": "ExecuteFunction",
+            "name": "Hide task pane for add-in"
+        },
+        {
+            "id": "ERROR",
+            "type": "ExecuteFunction",
+            "name": "Showing error due to duplicate shortcut key"
+        }
+    ],
+    "shortcuts": [
+        {
+            "action": "SHOWTASKPANE",
+            "key": {
+                "default": "Ctrl+Atl+1"
+            }
+        },
+        {
+            "action": "HIDETASKPANE",
+            "key": {
+                "default": "Ctrl+Alt+2"
+            }
+        },
+        {
+            "action": "ERROR",
+            "key": {
+                "default": "Ctrl+R"
+            }
+        }
+    ]
+}
