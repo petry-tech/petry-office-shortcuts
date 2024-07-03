@@ -1,50 +1,27 @@
 {
     "actions": [
         {
-            "id": "SHOWTASKPANE",
+            "id": "OPEN_PETRY",
             "type": "ExecuteFunction",
-            "name": "Show task pane for add-in"
+            "name": "Opens petry"
         },
         {
-            "id": "HIDETASKPANE",
+            "id": "CLOSE_PETRY",
             "type": "ExecuteFunction",
-            "name": "Hide task pane for add-in"
-        },
-        {
-            "id": "SETCOLOR",
-            "type": "ExecuteFunction",
-            "name": "Cycle through cell colors"
-        },
-        {
-            "id": "TESTCONFLICT",
-            "type": "ExecuteFunction",
-            "name": "Test the conflict modal"
+            "name": "Closes petry"
         }
-
     ],
     "shortcuts": [
         {
-            "action": "SHOWTASKPANE",
+            "action": "OPEN_PETRY",
             "key": {
-                "default": "Ctrl+Alt+1"
+                "default": "Alt+P"
             }
         },
         {
-            "action": "HIDETASKPANE",
+            "action": "CLOSE_PETRY",
             "key": {
-                "default": "Ctrl+Alt+2"
-            }
-        },
-        {
-            "action": "SETCOLOR",
-            "key": {
-                "default": "Ctrl+Alt+3"
-            }
-        },
-        {
-            "action": "TESTCONFLICT",
-            "key": {
-                "default": "Ctrl+R"
+                "default": "Alt+C"
             }
         }
     ]
