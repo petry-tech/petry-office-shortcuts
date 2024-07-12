@@ -18,7 +18,7 @@
         {
             "id": "GET_INSIGHTS",
             "type": "ExecuteFunction",
-            "name": "Get Insight"
+            "name": "Get Insights"
         }
     ],
     "shortcuts": [
