@@ -9,6 +9,16 @@
             "id": "CLOSE_PETRY",
             "type": "ExecuteFunction",
             "name": "Closes petry"
+        },
+        {
+            "id": "CAPTURE_INSIGHT",
+            "type": "ExecuteFunction",
+            "name": "Capture Insight"
+        },
+        {
+            "id": "GET_INSIGHT",
+            "type": "ExecuteFunction",
+            "name": "Get Insight"
         }
     ],
     "shortcuts": [
@@ -22,6 +32,17 @@
             "action": "CLOSE_PETRY",
             "key": {
                 "default": "Alt+C"
+            }
+        },
+        {
+            "action": "CAPTURE_INSIGHT",
+            "key": {
+                "default": "Alt+I"
+            }
+        },        {
+            "action": "GET_INSIGHT",
+            "key": {
+                "default": "Alt+SHIFT+I"
             }
         }
     ]
