@@ -16,7 +16,7 @@
             "name": "Capture Insight"
         },
         {
-            "id": "GET_INSIGHT",
+            "id": "GET_INSIGHTS",
             "type": "ExecuteFunction",
             "name": "Get Insight"
         }
