@@ -40,7 +40,7 @@
                 "default": "Alt+I"
             }
         },        {
-            "action": "GET_INSIGHT",
+            "action": "GET_INSIGHTS",
             "key": {
                 "default": "Alt+SHIFT+I"
             }
