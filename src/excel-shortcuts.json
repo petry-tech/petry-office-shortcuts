@@ -37,12 +37,12 @@
         {
             "action": "CAPTURE_INSIGHT",
             "key": {
-                "default": "Alt+I"
+                "default": "Alt+SHIFT+I"
             }
         },        {
             "action": "GET_INSIGHTS",
             "key": {
-                "default": "Alt+SHIFT+I"
+                "default": "Alt+I"
             }
         }
     ]
